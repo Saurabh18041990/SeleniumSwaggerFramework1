@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="1" name="Base">
+		<classes>
+			<class name="Workforce.Base" />
+		</classes>
+	</test>
+	<test thread-count="1" name="createuser">
+		<classes>
+			<class name="Workforce.createuser" />
+		</classes>
+	</test>
+	<test thread-count="1" name="Dogselection">
+		<classes>
+			<class name="Workforce.Dogselection" />
+		</classes>
+
+	</test> <!-- Test -->
+	<test thread-count="1" name="Imageupload">
+		<classes>
+			<class name="Workforce.Imageupload" />
+		</classes>
+	</test>
+	<test thread-count="1" name="Listalldogs">
+		<classes>
+			<class name="Workforce.Listalldogs" />
+		</classes>
+	</test>
+	<test thread-count="1" name="Logout">
+		<classes>
+			<class name="Workforce.Logout" />
+		</classes>
+	</test>
+	<test thread-count="1" name="Login">
+		<classes>
+			<class name="Workforce.Login" />
+		</classes>
+	</test>
+	<test thread-count="1" name="Deletedog">
+		<classes>
+			<class name="Workforce.Deletedog" />
+		</classes>
+	</test>
+	<test thread-count="1" name="Newlist">
+		<classes>
+			<class name="Workforce.Newlist" />
+		</classes>
+	</test>
+	<!-- Test -->
+</suite> <!-- Suite -->

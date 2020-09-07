@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="131296" started-at="2020-09-07T18:58:46 IST" finished-at="2020-09-07T19:00:58 IST">
+    <groups>
+    </groups>
+    <test name="Base" duration-ms="30" started-at="2020-09-07T18:58:46 IST" finished-at="2020-09-07T18:58:46 IST">
+    </test> <!-- Base -->
+    <test name="createuser" duration-ms="16737" started-at="2020-09-07T18:58:46 IST" finished-at="2020-09-07T18:59:03 IST">
+      <class name="Workforce.createuser">
+        <test-method status="PASS" signature="createuser()[pri:0, instance:Workforce.createuser@528931cf]" name="createuser" duration-ms="16708" started-at="2020-09-07T18:58:46 IST" finished-at="2020-09-07T18:59:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+      </class> <!-- Workforce.createuser -->
+    </test> <!-- createuser -->
+    <test name="Dogselection" duration-ms="23744" started-at="2020-09-07T18:59:03 IST" finished-at="2020-09-07T18:59:27 IST">
+      <class name="Workforce.Dogselection">
+        <test-method status="PASS" signature="Dogselection()[pri:0, instance:Workforce.Dogselection@7a765367]" name="Dogselection" duration-ms="23739" started-at="2020-09-07T18:59:03 IST" finished-at="2020-09-07T18:59:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dogselection -->
+      </class> <!-- Workforce.Dogselection -->
+    </test> <!-- Dogselection -->
+    <test name="Imageupload" duration-ms="14551" started-at="2020-09-07T18:59:27 IST" finished-at="2020-09-07T18:59:41 IST">
+      <class name="Workforce.Imageupload">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Workforce.Imageupload@7d70d1b1]" name="Login" duration-ms="14545" started-at="2020-09-07T18:59:27 IST" finished-at="2020-09-07T18:59:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- Workforce.Imageupload -->
+    </test> <!-- Imageupload -->
+    <test name="Listalldogs" duration-ms="24554" started-at="2020-09-07T18:59:41 IST" finished-at="2020-09-07T19:00:06 IST">
+      <class name="Workforce.Listalldogs">
+        <test-method status="PASS" signature="shopping()[pri:0, instance:Workforce.Listalldogs@307f6b8c]" name="shopping" duration-ms="24550" started-at="2020-09-07T18:59:41 IST" finished-at="2020-09-07T19:00:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopping -->
+      </class> <!-- Workforce.Listalldogs -->
+    </test> <!-- Listalldogs -->
+    <test name="Logout" duration-ms="7805" started-at="2020-09-07T19:00:06 IST" finished-at="2020-09-07T19:00:14 IST">
+      <class name="Workforce.Logout">
+        <test-method status="PASS" signature="Logout()[pri:0, instance:Workforce.Logout@c46bcd4]" name="Logout" duration-ms="7801" started-at="2020-09-07T19:00:06 IST" finished-at="2020-09-07T19:00:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- Workforce.Logout -->
+    </test> <!-- Logout -->
+    <test name="Login" duration-ms="5216" started-at="2020-09-07T19:00:14 IST" finished-at="2020-09-07T19:00:19 IST">
+      <class name="Workforce.Login$createuser">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Workforce.Login$createuser@32d2fa64]" name="Login" duration-ms="5213" started-at="2020-09-07T19:00:14 IST" finished-at="2020-09-07T19:00:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- Workforce.Login$createuser -->
+    </test> <!-- Login -->
+    <test name="Deletedog" duration-ms="12016" started-at="2020-09-07T19:00:19 IST" finished-at="2020-09-07T19:00:31 IST">
+      <class name="Workforce.Deletedog">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Workforce.Deletedog@5bb21b69]" name="Login" duration-ms="12014" started-at="2020-09-07T19:00:19 IST" finished-at="2020-09-07T19:00:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- Workforce.Deletedog -->
+    </test> <!-- Deletedog -->
+    <test name="Newlist" duration-ms="26051" started-at="2020-09-07T19:00:32 IST" finished-at="2020-09-07T19:00:58 IST">
+      <class name="Workforce.Newlist">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Workforce.Newlist@e874448]" name="setup" is-config="true" duration-ms="9092" started-at="2020-09-07T18:58:37 IST" finished-at="2020-09-07T18:58:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Newlist()[pri:0, instance:Workforce.Newlist@e874448]" name="Newlist" duration-ms="26049" started-at="2020-09-07T19:00:32 IST" finished-at="2020-09-07T19:00:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Newlist -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:Workforce.Newlist@e874448]" name="Logout" is-config="true" duration-ms="705" started-at="2020-09-07T19:00:58 IST" finished-at="2020-09-07T19:00:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- Workforce.Newlist -->
+    </test> <!-- Newlist -->
+  </suite> <!-- Suite -->
+</testng-results>
